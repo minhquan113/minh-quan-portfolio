@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     category: 'DA + BA skill',
     description: 'Built a Python-based ETL workflow to validate and reconcile daily inventory between WMS and OMS. Automated data cleaning, barcode matching, and aging checks to identify missing, duplicated, or slow-moving SKUs, improving stock accuracy for e-commerce operations.',
     tags: ['PYTHON / ETL / DATA QUALITY / INVENTORY ANALYTICS'],
-    image: 'https://media.licdn.com/dms/image/v2/D5622AQHWQRFH0nmFYw/feedshare-shrink_800/feedshare-shrink_800/0/1714104028295?e=2147483647&v=beta&t=X6WmMmxRWDTEY6w6F3pRZv4QSQOCOijTv-97SPm_9rE',
+    image: 'https://centralretail.com.vn/wp-content/uploads/2025/03/CBS_Logo_Full-Logo-Red-Black-e1742527564792.png',
     links: [
   
       { label: 'Read Report', url: 'https://short-curtain-d49.notion.site/CRV-ETL-PIPELINE-Ad-hoc-task-2b681f5724b180be972fd719b9ff9e7c?pvs=74', type: 'doc' }
@@ -42,7 +42,7 @@ export const PROJECTS: Project[] = [
     category: 'Business Intelligence',
     description: 'In this project, I was responsible for designing the complete data processing and analytical dashboard for TechCoop’s B2B receivables portfolio. The core objective was to transform fragmented operational spreadsheets into a structured analytics model that directly supported sales decision-making and credit-risk control.',
     tags: ['Market Research', 'Survey Design', 'Statistical Analysis', 'Power BI'],
-    image: 'https://scontent.fsgn22-1.fna.fbcdn.net/v/t39.30808-6/488210168_626650593500865_156915350092043951_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=f727a1&_nc_ohc=YrZi8Rl5Ja4Q7kNvwHsFBSr&_nc_oc=Adl2KtSAkHo57h5CxXnvO8zeWGeVt-E35Ai-C1T8-8E9GUWmNrrN8PKMYgDuYFw8JAE&_nc_zt=23&_nc_ht=scontent.fsgn22-1.fna&_nc_gid=HIWBE9otrwNq2zyNLmKlgQ&oh=00_AfjN60Ucqph0PkKN-upsvRChyVMHhF_YA41_KV0MvQiSXA&oe=693380DF',
+    image: 'https://substackcdn.com/image/fetch/$s_!IvoN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a3c105d-ac35-4479-a069-19e33ef922c6_940x788.png',
     links: [
       { label: 'View Project', url: 'https://short-curtain-d49.notion.site/TechCoop-B2B-Receivables-Analytics-and-Project-Management-Power-Query-Excel-Dashboard-2b681f5724b180b69debf82c01121e90?source=copy_link', type: 'doc' }
     ]
@@ -93,19 +93,20 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'p6',
-    title: 'Media Performance Analysis Project - Outsourcing',
-    category: 'Marketing Metrics',
-    description: 'Analyzed multi-platform awareness campaign data (Meta, TikTok, YouTube) to evaluate cost efficiency, engagement quality, and audience reach. Cleaned and structured raw ad metrics, benchmarked CPM/CPV/CPE across platforms, and generated actionable insights to optimize creative allocation and platform mix.',
+    title: 'Freelance Projects/Works',
+    category: 'Marketing Metrics/Operations/Systems',
+    description: 'Delivered short-term analytical and operational support for small businesses, with a focus on process structuring, data consistency, and decision-oriented reporting. The work involved analyzing logistics planning and operational documentation, as well as building sales and margin tracking frameworks to improve visibility into business performance. These projects emphasized practicality, fast turnaround, and alignment with real operational needs rather than theoretical modeling.',
     tags: ['Media Analytics',
   'Digital Marketing',
+  'Logistics',
   'Data Cleaning',
   'Cross-Platform Analysis',
   'Insight Generation',
   'CPM/CPV/CPE Benchmarking',
   'Campaign Optimization'],
-    image: 'https://www.searchenginejournal.com/wp-content/uploads/2021/06/google-analytics-4-customization-capabilities-60c2596402dd5.gif',
+    image: 'https://i.ibb.co/QjDhHZ7F/BTA.jpg',
     links: [
-      { label: 'Insights View', url: 'https://docs.google.com/document/d/1-y5goUiZJNpMXkSKaF_6jITVsPzMZ6rM-7Tn5ICNMDM/edit?tab=t.0', type: 'doc' }
+      { label: 'Insights View', url: 'https://short-curtain-d49.notion.site/Freelance-Projects-Works-2c381f5724b18086a1c0f5d827bd1bf6?source=copy_link', type: 'doc' }
     ]
   },
   {
@@ -126,19 +127,9 @@ export const PROJECTS: Project[] = [
       { label: 'View Projects', url: 'https://docs.google.com/document/d/17ja0gXF2E23XH9trAMHREj-hNktdVQhrGKijwT6XUd8/edit?tab=t.0', type: 'doc' }
     ]
   },
+  
   {
     id: 'p8',
-    title: 'Interactive Dashboard and Modelling (Practice Project)',
-    category: 'Business Intelligence',
-    description: 'A self-directed Power BI practice project where I redesigned the data model, created additional DAX measures, and built an improved layout compared to the original sample. Focused on KPI tracking, data relationships, and user-friendly interaction.',
-    tags: ['Power BI', 'Dax', 'Marketing Analytics', 'Data Integration', 'CRM', 'Modelling'],
-    image: 'https://images.unsplash.com/photo-1533750516457-a7f992034fec?q=80&w=800&auto=format&fit=crop',
-    links: [
-      { label: 'View Dashboard', url: '#', type: 'external' }
-    ]
-  },
-  {
-    id: 'p9',
     title: 'Exam Grading Analytics Pipeline/Marker Performance & Workflow Optimization for Prep IELTS (Outsourcing) ',
     category: 'Data Analytics',
     description: 'I collaborated with an Operations Executive at Prep IELTS to design a complete grading performance analytics framework. I analyzed the business issues around slow turnaround time, deadline violations, and inconsistent productivity among markers. I designed a full metric system, data model, and Airflow-ready SQL modules to support automated monitoring of marker performance. This included productivity ranking, grading speed analysis, overdue detection, and course-level marking volume. The project strengthened operational visibility and enabled the team to optimize resource allocation, reduce delays, and track performance accurately.',
