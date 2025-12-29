@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
     tags: ['Advanced Excel', 'Power Point', 'Data Visualization', 'Sales Ops', 'SLA Monitoring', 'Customer Experience Metrics'],
     image: 'https://gigamall.com.vn/data/2019/05/06/15400917_logo-fotflop-500x500.jpg',
     links: [
-      { label: 'View Report', url: 'https://drive.google.com/file/d/1zq7zGts59akW3VRGkNx0MoEoKqVlDHx_/view?usp=sharing', type: 'external' }
+      { label: 'View Report', url: , type: 'external' }
     ]
   },
   {
